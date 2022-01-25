@@ -46,6 +46,8 @@ class CfgWLRequisitionPresets
 				class B_MBT_01_TUSK_F						{cost = 5500;	requirements[]={};	};	// "M2A1 Slammer UP"
 				class B_AFV_Wheeled_01_cannon_F				{cost = 7000;	requirements[]={};	};	// "Rhino MGS"
 				class B_AFV_Wheeled_01_up_cannon_F			{cost = 7500;	requirements[]={};	};	// "Rhino MGS UP"
+				class B_UGV_01_rcws_F						{cost = 5;	requirements[]={};	};	// "UGAS" 
+				class B_UGV_02_Demining_F					{cost = 5;	requirements[]={};	};	// "UGAS demining" 
 			};
 			class Aircraft
 			{
@@ -57,6 +59,13 @@ class CfgWLRequisitionPresets
 				class B_T_VTOL_01_armed_F					{cost = 9000;	requirements[]={"H"};	};	// "V-44 X Blackfish (Armed)"
 				class B_Plane_CAS_01_dynamicLoadout_F		{cost = 10500;	requirements[]={"A"};	};	// "A-164 Wipeout (CAS)"
 				class B_Plane_Fighter_01_F					{cost = 13500;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
+				class B_UAV_05_F 							{cost = 5;	requirements[]={};	};	// "UCAV";
+				class B_UAV_02_F 							{cost = 5;	requirements[]={};	};	// "greyhawk AT";
+				class B_UAV_02_CAS_F						{cost = 5;	requirements[]={};	};	// "greyhawk LGB";
+				class B_T_UAV_03_F 							{cost = 5;	requirements[]={};	};	// "Firescout";
+				class B_UAV_01_F							{cost = 5;	requirements[]={};	};	// "Ar-2 darter";
+				class B_UAV_06_F							{cost = 5;	requirements[]={};	};	// "AL-6 Pelican";
+				class B_UAV_06_medical_F					{cost = 5;	requirements[]={};	};	// "AL-6 Medical";
 			};
 			class Naval
 			{
