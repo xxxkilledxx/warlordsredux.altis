@@ -83,8 +83,8 @@ class CfgWLRequisitionPresets
 				class B_UAV_06_F							{cost = 5;	requirements[]={};	};	// "AL-6 Pelican";
 				class B_UAV_06_medical_F					{cost = 5;	requirements[]={};	};	// "AL-6 Medical";
 				class OPTRE_UNSC_hornet						{cost = 1000;	requirements[]={"H"};	};
-				class OPTRE_AV22B_Sparrowhawk					{cost = 1500;	requirements[]={"H"};	};
-				class OPTRE_AV22_Sparrowhawk					{cost = 1500;	requirements[]={"H"};	};
+				class OPTRE_AV22B_Sparrowhawk					{cost = 2500;	requirements[]={"H"};	};
+				class OPTRE_AV22_Sparrowhawk					{cost = 2500;	requirements[]={"H"};	};
 				class OPTRE_Pelican_unarmed					{cost = 500;	requirements[]={"H"};	};
 				class OPTRE_Pelican_armed_70mm					{cost = 1500;	requirements[]={"H"};	};
 				class OPTRE_UNSC_falcon						{cost = 1000;	requirements[]={"H"};	};
@@ -194,7 +194,7 @@ class CfgWLRequisitionPresets
 				class O_Plane_Fighter_02_F					{cost = 13500;	requirements[]={"A"};	};	// "To-201 Shikra"
 				class OPTRE_FC_Spirit					{cost = 1000;	requirements[]={"H"};	};
 				class OPTRE_FC_Type27_Banshee				{cost = 1000;	requirements[]={"H"};	};
-				class OPTRE_FC_Type26B_Banshee				{cost = 1000;	requirements[]={"H"};	};
+				class OPTRE_FC_Type26B_Banshee				{cost = 500;	requirements[]={"H"};	};
 				class OPTRE_FC_Type26N_Banshee				{cost = 2000;	requirements[]={"H"};	};
 
 
